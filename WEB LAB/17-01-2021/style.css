@@ -1,0 +1,31 @@
+body
+{
+
+/*background-image:url(amaljyothi.jpg);*/
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-position:center;
+margin-left:50px;
+}
+img
+{
+margin-top:-250px;
+	margin-left:700px;
+}
+p
+{
+	/*margin-top:200px;
+	border-style:dotted;
+	border-style:dashed;
+	border-style:solid;
+	border-width:10px;//(thick,meadium,thin)
+	border-bottom-width:50px;
+	border-color:red;
+	border-radius:10px;
+	*/
+	
+	letter-spacing:6px;
+	line-height:50px;
+	
+}
+	

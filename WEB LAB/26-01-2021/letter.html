@@ -1,0 +1,28 @@
+<html>
+<head></head>
+<body>
+<p id="demo"></p>
+enter the string:<input type="text" id="str">
+enter the letter:<input  type="text" id="letter">
+<button onclick="displayCount()">click</button>
+<script language="javascript" type="text/javascript">
+
+function displayCount()
+{
+var s=document.getElementById('str').value;
+var l=document.getElementById('letter').value;
+var count=0
+var n=s.length
+for(i=0;i<n;i++)
+{
+if(s[i]==l)
+{
+count=count+1
+}
+}
+document.write(count+"<br>")
+}
+
+</script>
+</body>
+</html>
